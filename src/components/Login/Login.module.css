@@ -1,0 +1,82 @@
+.loginWrapper{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    border:1px solid grey;
+    width:30%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.secure{
+    width: 150px;
+}
+
+.form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logination{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    width: 100%;
+}
+
+.logination>div>input{
+    margin-bottom: 5px;
+    padding: 0 30px;
+    border: 1px solid black;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+.send{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bntSend{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: darkslategray;
+    color: white;
+    font-size: 16px;
+}
+
+.signIn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signIn>p{
+    padding: 15px 0;
+    text-decoration: underline;
+}
